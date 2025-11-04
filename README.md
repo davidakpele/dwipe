@@ -25,7 +25,7 @@
 To install **dwipe**, simply clone the repository and follow the instructions below:
 
 ```bash
-git clone git@github.com:trinhminhtriet/dwipe.git
+git clone git@github.com:davidakpele/dwipe.git
 cd dwipe
 
 cargo build --release
@@ -62,8 +62,8 @@ source ~/.bashrc
 with [Docker Hub](https://hub.docker.com/repository/docker/trinhminhtriet/dwipe)
 
 ```sh
-docker pull trinhminhtriet/dwipe
-docker run --rm -v "${PWD}":/workdir trinhminhtriet/dwipe .
+docker pull davidakpele/dwipe
+docker run --rm -v "${PWD}":/workdir davidakpele/dwipe .
 ```
 
 ## Keybindings
